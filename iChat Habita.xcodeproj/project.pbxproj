@@ -35,7 +35,7 @@
 		93844D54284A7391008882E8 = {
 			isa = PBXGroup;
 			children = (
-				93844D5F284A7391008882E8 /* iChat Habita */,
+				93844D5F284A7391008882E8 /* iChat_Habita */,
 				93844D5E284A7391008882E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,7 +48,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		93844D5F284A7391008882E8 /* iChat Habita */ = {
+		93844D5F284A7391008882E8 /* iChat_Habita */ = {
 			isa = PBXGroup;
 			children = (
 				93844D60284A7391008882E8 /* iChat_HabitaApp.swift */,
@@ -56,7 +56,7 @@
 				93844D64284A7392008882E8 /* Assets.xcassets */,
 				93844D66284A7392008882E8 /* Preview Content */,
 			);
-			path = "iChat Habita";
+			path = iChat_Habita;
 			sourceTree = "<group>";
 		};
 		93844D66284A7392008882E8 /* Preview Content */ = {
@@ -266,7 +266,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iChat Habita/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iChat_Habita/Preview Content\"";
 				DEVELOPMENT_TEAM = 2WUBK8ZL5T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,7 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iChat Habita/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iChat_Habita/Preview Content\"";
 				DEVELOPMENT_TEAM = 2WUBK8ZL5T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
