@@ -8,9 +8,22 @@
 import SwiftUI
 
 struct SingnInView: View {
+    
+    @State private var email = ""
+    
+    
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Image("logo-chat")
+                .resizable()
+                .scaledToFit()
+                .padding()
+            
+            
+            
+        
+        }
     }
 }
 
