@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		93844D61284A7391008882E8 /* iChat_HabitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93844D60284A7391008882E8 /* iChat_HabitaApp.swift */; };
-		93844D63284A7391008882E8 /* SingInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93844D62284A7391008882E8 /* SingInView.swift */; };
-		93844D65284A7392008882E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93844D64284A7392008882E8 /* Assets.xcassets */; };
-		93844D68284A7392008882E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93844D67284A7392008882E8 /* Preview Assets.xcassets */; };
+		93D06AF8284A83DB006C3CB4 /* iChat_HabitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D06AF7284A83DB006C3CB4 /* iChat_HabitaApp.swift */; };
+		93D06AFA284A83DB006C3CB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D06AF9284A83DB006C3CB4 /* ContentView.swift */; };
+		93D06AFC284A83DC006C3CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D06AFB284A83DC006C3CB4 /* Assets.xcassets */; };
+		93D06AFF284A83DC006C3CB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D06AFE284A83DC006C3CB4 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		93844D5D284A7391008882E8 /* iChat Habita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iChat Habita.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93844D60284A7391008882E8 /* iChat_HabitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChat_HabitaApp.swift; sourceTree = "<group>"; };
-		93844D62284A7391008882E8 /* SingInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInView.swift; sourceTree = "<group>"; };
-		93844D64284A7392008882E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		93844D67284A7392008882E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93D06AF4284A83DB006C3CB4 /* iChat_Habita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat_Habita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D06AF7284A83DB006C3CB4 /* iChat_HabitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChat_HabitaApp.swift; sourceTree = "<group>"; };
+		93D06AF9284A83DB006C3CB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93D06AFB284A83DC006C3CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93D06AFE284A83DC006C3CB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		93844D5A284A7391008882E8 /* Frameworks */ = {
+		93D06AF1284A83DB006C3CB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		93844D54284A7391008882E8 = {
+		93D06AEB284A83DB006C3CB4 = {
 			isa = PBXGroup;
 			children = (
-				93844D5F284A7391008882E8 /* iChat_Habita */,
-				93844D5E284A7391008882E8 /* Products */,
+				93D06AF6284A83DB006C3CB4 /* iChat_Habita */,
+				93D06AF5284A83DB006C3CB4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		93844D5E284A7391008882E8 /* Products */ = {
+		93D06AF5284A83DB006C3CB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93844D5D284A7391008882E8 /* iChat Habita.app */,
+				93D06AF4284A83DB006C3CB4 /* iChat_Habita.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		93844D5F284A7391008882E8 /* iChat_Habita */ = {
+		93D06AF6284A83DB006C3CB4 /* iChat_Habita */ = {
 			isa = PBXGroup;
 			children = (
-				93844D60284A7391008882E8 /* iChat_HabitaApp.swift */,
-				93844D62284A7391008882E8 /* SingInView.swift */,
-				93844D64284A7392008882E8 /* Assets.xcassets */,
-				93844D66284A7392008882E8 /* Preview Content */,
+				93D06AF7284A83DB006C3CB4 /* iChat_HabitaApp.swift */,
+				93D06AF9284A83DB006C3CB4 /* ContentView.swift */,
+				93D06AFB284A83DC006C3CB4 /* Assets.xcassets */,
+				93D06AFD284A83DC006C3CB4 /* Preview Content */,
 			);
 			path = iChat_Habita;
 			sourceTree = "<group>";
 		};
-		93844D66284A7392008882E8 /* Preview Content */ = {
+		93D06AFD284A83DC006C3CB4 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				93844D67284A7392008882E8 /* Preview Assets.xcassets */,
+				93D06AFE284A83DC006C3CB4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		93844D5C284A7391008882E8 /* iChat Habita */ = {
+		93D06AF3284A83DB006C3CB4 /* iChat_Habita */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93844D6B284A7392008882E8 /* Build configuration list for PBXNativeTarget "iChat Habita" */;
+			buildConfigurationList = 93D06B02284A83DC006C3CB4 /* Build configuration list for PBXNativeTarget "iChat_Habita" */;
 			buildPhases = (
-				93844D59284A7391008882E8 /* Sources */,
-				93844D5A284A7391008882E8 /* Frameworks */,
-				93844D5B284A7391008882E8 /* Resources */,
+				93D06AF0284A83DB006C3CB4 /* Sources */,
+				93D06AF1284A83DB006C3CB4 /* Frameworks */,
+				93D06AF2284A83DB006C3CB4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "iChat Habita";
-			productName = "iChat Habita";
-			productReference = 93844D5D284A7391008882E8 /* iChat Habita.app */;
+			name = iChat_Habita;
+			productName = iChat_Habita;
+			productReference = 93D06AF4284A83DB006C3CB4 /* iChat_Habita.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		93844D55284A7391008882E8 /* Project object */ = {
+		93D06AEC284A83DB006C3CB4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					93844D5C284A7391008882E8 = {
+					93D06AF3284A83DB006C3CB4 = {
 						CreatedOnToolsVersion = 13.4;
 					};
 				};
 			};
-			buildConfigurationList = 93844D58284A7391008882E8 /* Build configuration list for PBXProject "iChat Habita" */;
+			buildConfigurationList = 93D06AEF284A83DB006C3CB4 /* Build configuration list for PBXProject "iChat_Habita" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 93844D54284A7391008882E8;
-			productRefGroup = 93844D5E284A7391008882E8 /* Products */;
+			mainGroup = 93D06AEB284A83DB006C3CB4;
+			productRefGroup = 93D06AF5284A83DB006C3CB4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				93844D5C284A7391008882E8 /* iChat Habita */,
+				93D06AF3284A83DB006C3CB4 /* iChat_Habita */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		93844D5B284A7391008882E8 /* Resources */ = {
+		93D06AF2284A83DB006C3CB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93844D68284A7392008882E8 /* Preview Assets.xcassets in Resources */,
-				93844D65284A7392008882E8 /* Assets.xcassets in Resources */,
+				93D06AFF284A83DC006C3CB4 /* Preview Assets.xcassets in Resources */,
+				93D06AFC284A83DC006C3CB4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		93844D59284A7391008882E8 /* Sources */ = {
+		93D06AF0284A83DB006C3CB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93844D63284A7391008882E8 /* SingInView.swift in Sources */,
-				93844D61284A7391008882E8 /* iChat_HabitaApp.swift in Sources */,
+				93D06AFA284A83DB006C3CB4 /* ContentView.swift in Sources */,
+				93D06AF8284A83DB006C3CB4 /* iChat_HabitaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		93844D69284A7392008882E8 /* Debug */ = {
+		93D06B00284A83DC006C3CB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		93844D6A284A7392008882E8 /* Release */ = {
+		93D06B01284A83DC006C3CB4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +259,7 @@
 			};
 			name = Release;
 		};
-		93844D6C284A7392008882E8 /* Debug */ = {
+		93D06B03284A83DC006C3CB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -288,7 +288,7 @@
 			};
 			name = Debug;
 		};
-		93844D6D284A7392008882E8 /* Release */ = {
+		93D06B04284A83DC006C3CB4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		93844D58284A7391008882E8 /* Build configuration list for PBXProject "iChat Habita" */ = {
+		93D06AEF284A83DB006C3CB4 /* Build configuration list for PBXProject "iChat_Habita" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93844D69284A7392008882E8 /* Debug */,
-				93844D6A284A7392008882E8 /* Release */,
+				93D06B00284A83DC006C3CB4 /* Debug */,
+				93D06B01284A83DC006C3CB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93844D6B284A7392008882E8 /* Build configuration list for PBXNativeTarget "iChat Habita" */ = {
+		93D06B02284A83DC006C3CB4 /* Build configuration list for PBXNativeTarget "iChat_Habita" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93844D6C284A7392008882E8 /* Debug */,
-				93844D6D284A7392008882E8 /* Release */,
+				93D06B03284A83DC006C3CB4 /* Debug */,
+				93D06B04284A83DC006C3CB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 93844D55284A7391008882E8 /* Project object */;
+	rootObject = 93D06AEC284A83DB006C3CB4 /* Project object */;
 }
