@@ -31,6 +31,24 @@ struct SingnInView: View {
             SecureField("Entre com sua Senha", text: $password)
                 .padding()
                 .border(Color(UIColor.separator))
+            
+            Button{
+                print("Clicado")
+            } label: {
+                Text("oii")
+                
+            }
+            
+            Divider()
+            
+            Button{
+                print("Clicado 2")
+            } label: {
+                Text("Não tem uma conta? Faça cadastro")
+                
+            }
+            }
+            
     }
 }
 
@@ -39,4 +57,4 @@ struct SingnInView_Previews: PreviewProvider {
         SingnInView()
     }
 }
-}
+
