@@ -10,6 +10,8 @@ import SwiftUI
 struct SingnInView: View {
     
     @State private var email = ""
+    @State private var password = ""
+
     
     
     
@@ -21,9 +23,14 @@ struct SingnInView: View {
                 .padding()
             
             
-            
-        
-        }
+                
+            TextField("Entre com seu email", text: $email)
+                .padding()
+                .border(Color(UIColor.separator))
+                
+            SecureField("Entre com sua Senha", text: $password)
+                .padding()
+                .border(Color(UIColor.separator))
     }
 }
 
@@ -31,4 +38,5 @@ struct SingnInView_Previews: PreviewProvider {
     static var previews: some View {
         SingnInView()
     }
+}
 }
