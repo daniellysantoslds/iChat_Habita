@@ -11,7 +11,7 @@ import SwiftUI
 struct iChat_HabitaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SingInView()
         }
     }
 }

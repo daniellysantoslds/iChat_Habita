@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		93844D61284A7391008882E8 /* iChat_HabitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93844D60284A7391008882E8 /* iChat_HabitaApp.swift */; };
-		93844D63284A7391008882E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93844D62284A7391008882E8 /* ContentView.swift */; };
+		93844D63284A7391008882E8 /* SingInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93844D62284A7391008882E8 /* SingInView.swift */; };
 		93844D65284A7392008882E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93844D64284A7392008882E8 /* Assets.xcassets */; };
 		93844D68284A7392008882E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93844D67284A7392008882E8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		93844D5D284A7391008882E8 /* iChat Habita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iChat Habita.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93844D60284A7391008882E8 /* iChat_HabitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChat_HabitaApp.swift; sourceTree = "<group>"; };
-		93844D62284A7391008882E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93844D62284A7391008882E8 /* SingInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInView.swift; sourceTree = "<group>"; };
 		93844D64284A7392008882E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93844D67284A7392008882E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				93844D60284A7391008882E8 /* iChat_HabitaApp.swift */,
-				93844D62284A7391008882E8 /* ContentView.swift */,
+				93844D62284A7391008882E8 /* SingInView.swift */,
 				93844D64284A7392008882E8 /* Assets.xcassets */,
 				93844D66284A7392008882E8 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93844D63284A7391008882E8 /* ContentView.swift in Sources */,
+				93844D63284A7391008882E8 /* SingInView.swift in Sources */,
 				93844D61284A7391008882E8 /* iChat_HabitaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
