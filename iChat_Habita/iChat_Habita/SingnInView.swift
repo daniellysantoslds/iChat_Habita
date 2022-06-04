@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  iChat_Habita
 //
-//  Created by Danielly Santos Lopes da Silva on 03/06/22.
+//  Created by Danielly Santos Lopes da Silva on03/06/22.
 //
 
 import SwiftUI
@@ -21,14 +21,38 @@ struct SingnInView: View {
                 .padding()
             
             
-                
-            TextField("Entre com seu email", text: $viewModel.email)
+            
+            Text("E-mail").frame(maxWidth: .infinity, alignment: .leading)
+                .font(.system(size: 18))
+            
+                .padding(.bottom, 5)
+            
+            TextField("email@hotmail.com", text: $viewModel.email)
                 .padding()
-                .border(Color(UIColor.separator))
+                .border(Color("Black -1"))
+                .background(.white)
+                .cornerRadius(4)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 4).strokeBorder(Color("Black -1"), style: StrokeStyle(lineWidth: 1.0))
+                                            
+                ) .padding(.bottom, 24)
+            
                 
-            SecureField("Entre com sua Senha", text: $viewModel.password)
+            Text("Senha").frame(maxWidth: .infinity, alignment: .leading)
+                .font(.system(size: 18))
+            
+                .padding(.bottom, 5)
+            
+            SecureField("exemplosenha", text: $viewModel.password)
                 .padding()
-                .border(Color(UIColor.separator))
+                .border(Color("Black -1"))
+                .background(.white)
+                .cornerRadius(4)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 4).strokeBorder(Color("Black -1"), style: StrokeStyle(lineWidth: 1.0))
+                                            
+                )  .padding(.bottom, 16)
+            
             
             Button{
                 viewModel.singIn()
@@ -45,7 +69,7 @@ struct SingnInView: View {
                 Text("Não tem uma conta? Faça cadastro")
                 
             }
-            }
+        } .padding(.horizontal, 8)
             
     }
 }
