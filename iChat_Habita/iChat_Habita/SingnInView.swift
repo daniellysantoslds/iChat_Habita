@@ -9,12 +9,10 @@ import SwiftUI
 
 struct SingnInView: View {
     
-    @State private var email = ""
-    @State private var password = ""
+    
+    @StateObject var viewModel =  SingInViewModel()
+    
 
-    
-    
-    
     var body: some View {
         VStack{
             Image("logo-chat")
@@ -24,16 +22,16 @@ struct SingnInView: View {
             
             
                 
-            TextField("Entre com seu email", text: $email)
+            TextField("Entre com seu email", text: $viewModel.email)
                 .padding()
                 .border(Color(UIColor.separator))
                 
-            SecureField("Entre com sua Senha", text: $password)
+            SecureField("Entre com sua Senha", text: $viewModel.password)
                 .padding()
                 .border(Color(UIColor.separator))
             
             Button{
-                print("Clicado")
+                viewModel.singIn()
             } label: {
                 Text("oii")
                 

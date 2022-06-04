@@ -9,6 +9,11 @@ import SwiftUI
 
 class SingInViewModel: ObservableObject {
     
+    var email = ""
+    var password = ""
     
+    func singIn(){
+        print("email: \(email), senha: \(password)")
+    }
     
 }
