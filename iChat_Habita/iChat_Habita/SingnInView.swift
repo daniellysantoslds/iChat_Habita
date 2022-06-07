@@ -15,19 +15,21 @@ struct SingnInView: View {
 
     var body: some View {
         VStack{
-            Image("logo-chat")
+            Image("logo")
                 .resizable()
                 .scaledToFit()
+                .frame(width: 230)
                 .padding()
             
-            
+                .padding(.bottom, 40)
+
             
             Text("E-mail").frame(maxWidth: .infinity, alignment: .leading)
                 .font(.system(size: 18))
             
                 .padding(.bottom, 5)
             
-            TextField("email@hotmail.com", text: $viewModel.email)
+            TextField("email@hotma", text: $viewModel.email)
                 .padding()
                 .border(Color("Black -1"))
                 .background(.white)
@@ -51,22 +53,32 @@ struct SingnInView: View {
                 .overlay(
                     RoundedRectangle(cornerRadius: 4).strokeBorder(Color("Black -1"), style: StrokeStyle(lineWidth: 1.0))
                                             
-                )  .padding(.bottom, 16)
+                )  .padding(.bottom, 32)
             
             
             Button{
                 viewModel.singIn()
             } label: {
-                Text("oii")
+                Text("Entrar")
+                    .frame(maxWidth: .infinity)
+                    .padding()
+                    .background(Color("Blue 0"))
+                    .foregroundColor(Color("White 0"))
+                    .cornerRadius(4)
+                
+                
+                
                 
             }
             
             Divider()
+                .padding()
             
             Button{
                 print("Clicado 2")
             } label: {
-                Text("Não tem uma conta? Faça cadastro")
+                Text("Não tem uma conta? Clique aqui")
+                    .foregroundColor(Color("Black -1"))
                 
             }
         } .padding(.horizontal, 8)
