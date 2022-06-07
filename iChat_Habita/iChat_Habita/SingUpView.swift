@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct SingnUpView: View {
-    
+
+struct SingUpView: View {
     
     @StateObject var viewModel =  SingUpViewModel()
     
@@ -23,6 +23,24 @@ struct SingnUpView: View {
             
                 .padding(.bottom, 40)
 
+            
+            Text("Nome").frame(maxWidth: .infinity, alignment: .leading)
+                .font(.system(size: 18))
+            
+                .padding(.bottom, 5)
+            
+            TextField("digite seu nome", text: $viewModel.name)
+                .padding()
+                .border(Color("Black -1"))
+                .background(.white)
+                .cornerRadius(4)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 4).strokeBorder(Color("Black -1"), style: StrokeStyle(lineWidth: 1.0))
+                                            
+                ) .padding(.bottom, 24)
+            
+            
+            
             
             Text("E-mail").frame(maxWidth: .infinity, alignment: .leading)
                 .font(.system(size: 18))
@@ -84,19 +102,13 @@ struct SingnUpView: View {
         } .padding(.horizontal, 8)
             
     }
-}
+    
+    
 
-
-
-
-struct SingUpView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
 
 struct SingUpView_Previews: PreviewProvider {
     static var previews: some View {
         SingUpView()
     }
+}
 }
