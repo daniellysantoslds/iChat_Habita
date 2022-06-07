@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93593CAA284F89DA00D175CE /* SingUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93593CA9284F89DA00D175CE /* SingUpViewModel.swift */; };
+		93593CAC284F8BB700D175CE /* SingUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93593CAB284F8BB700D175CE /* SingUpView.swift */; };
 		93D06AF8284A83DB006C3CB4 /* iChat_HabitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D06AF7284A83DB006C3CB4 /* iChat_HabitaApp.swift */; };
 		93D06AFA284A83DB006C3CB4 /* SingnInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D06AF9284A83DB006C3CB4 /* SingnInView.swift */; };
 		93D06AFC284A83DC006C3CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D06AFB284A83DC006C3CB4 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93593CA9284F89DA00D175CE /* SingUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewModel.swift; sourceTree = "<group>"; };
+		93593CAB284F8BB700D175CE /* SingUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpView.swift; sourceTree = "<group>"; };
 		93D06AF4284A83DB006C3CB4 /* iChat_Habita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat_Habita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D06AF7284A83DB006C3CB4 /* iChat_HabitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChat_HabitaApp.swift; sourceTree = "<group>"; };
 		93D06AF9284A83DB006C3CB4 /* SingnInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingnInView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 			children = (
 				93D06AF7284A83DB006C3CB4 /* iChat_HabitaApp.swift */,
 				93D06AF9284A83DB006C3CB4 /* SingnInView.swift */,
+				93593CAB284F8BB700D175CE /* SingUpView.swift */,
+				93593CA9284F89DA00D175CE /* SingUpViewModel.swift */,
 				93E54CCA284AD64300B3D10E /* SingnInViewModel.swift */,
 				93D06AFB284A83DC006C3CB4 /* Assets.xcassets */,
 				93D06AFD284A83DC006C3CB4 /* Preview Content */,
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93593CAC284F8BB700D175CE /* SingUpView.swift in Sources */,
+				93593CAA284F89DA00D175CE /* SingUpViewModel.swift in Sources */,
 				93D06AFA284A83DB006C3CB4 /* SingnInView.swift in Sources */,
 				93D06AF8284A83DB006C3CB4 /* iChat_HabitaApp.swift in Sources */,
 				93E54CCB284AD64300B3D10E /* SingnInViewModel.swift in Sources */,
