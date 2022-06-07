@@ -21,7 +21,7 @@ struct SingUpView: View {
                 .frame(width: 230)
                 .padding()
             
-                .padding(.bottom, 40)
+                
 
             
             Text("Nome").frame(maxWidth: .infinity, alignment: .leading)
@@ -99,7 +99,9 @@ struct SingUpView: View {
                     .foregroundColor(Color("Black -1"))
                 
             }
-        } .padding(.horizontal, 8)
+        } .frame(maxWidth: .infinity,maxHeight: .infinity)
+            .padding(.horizontal, 8)
+            .navigationBarTitleDisplayMode(.inline)
             
     }
     

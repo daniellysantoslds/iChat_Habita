@@ -14,6 +14,7 @@ struct SingnInView: View {
     
 
     var body: some View {
+        NavigationView{
         VStack{
             Image("logo")
                 .resizable()
@@ -65,26 +66,32 @@ struct SingnInView: View {
                     .background(Color("Blue 0"))
                     .foregroundColor(Color("White 0"))
                     .cornerRadius(4)
-                
-                
-                
+    
                 
             }
             
             Divider()
                 .padding()
             
-            Button{
-                print("Clicado 2")
-            } label: {
+            
+            
+            NavigationLink(destination: SingUpView ()) {
                 Text("Não tem uma conta? Clique aqui")
                     .foregroundColor(Color("Black -1"))
                 
             }
-        } .padding(.horizontal, 8)
+        
+            
+            }    .frame(maxWidth: .infinity,maxHeight: .infinity)
+                .padding(.horizontal, 8)
+                .navigationTitle("Login")
+                .navigationBarHidden(true)
+            
+        }
+            
+   
             
     }
-}
 
 struct SingnInView_Previews: PreviewProvider {
     static var previews: some View {
@@ -92,3 +99,4 @@ struct SingnInView_Previews: PreviewProvider {
     }
 }
 
+}
