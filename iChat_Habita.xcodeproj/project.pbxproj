@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93593CAA284F89DA00D175CE /* SingUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93593CA9284F89DA00D175CE /* SingUpViewModel.swift */; };
+		93593CAC284F8BB700D175CE /* SingUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93593CAB284F8BB700D175CE /* SingUpView.swift */; };
+		93593CAE284FB42800D175CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93593CAD284FB42800D175CE /* GoogleService-Info.plist */; };
+		93D06AF8284A83DB006C3CB4 /* iChat_HabitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D06AF7284A83DB006C3CB4 /* iChat_HabitaApp.swift */; };
+		93D06AFA284A83DB006C3CB4 /* SingnInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D06AF9284A83DB006C3CB4 /* SingnInView.swift */; };
+		93D06AFC284A83DC006C3CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D06AFB284A83DC006C3CB4 /* Assets.xcassets */; };
+		93D06AFF284A83DC006C3CB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D06AFE284A83DC006C3CB4 /* Preview Assets.xcassets */; };
+		93E54CCB284AD64300B3D10E /* SingnInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E54CCA284AD64300B3D10E /* SingnInViewModel.swift */; };
+		BF6EA028600CD9D5E41AA8BE /* Pods_iChat_Habita.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7950A94C875253F640B8FCD6 /* Pods_iChat_Habita.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		016DBFCAE08F1065025EE7D2 /* Pods-iChat_Habita.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat_Habita.debug.xcconfig"; path = "Target Support Files/Pods-iChat_Habita/Pods-iChat_Habita.debug.xcconfig"; sourceTree = "<group>"; };
+		05FAACE142F3E1702C87598A /* Pods-iChat_Habita.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat_Habita.release.xcconfig"; path = "Target Support Files/Pods-iChat_Habita/Pods-iChat_Habita.release.xcconfig"; sourceTree = "<group>"; };
+		7950A94C875253F640B8FCD6 /* Pods_iChat_Habita.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iChat_Habita.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93593CA9284F89DA00D175CE /* SingUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewModel.swift; sourceTree = "<group>"; };
+		93593CAB284F8BB700D175CE /* SingUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpView.swift; sourceTree = "<group>"; };
+		93593CAD284FB42800D175CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93D06AF4284A83DB006C3CB4 /* iChat_Habita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat_Habita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D06AF7284A83DB006C3CB4 /* iChat_HabitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChat_HabitaApp.swift; sourceTree = "<group>"; };
+		93D06AF9284A83DB006C3CB4 /* SingnInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingnInView.swift; sourceTree = "<group>"; };
+		93D06AFB284A83DC006C3CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93D06AFE284A83DC006C3CB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93E54CCA284AD64300B3D10E /* SingnInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingnInViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93D06AF1284A83DB006C3CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6EA028600CD9D5E41AA8BE /* Pods_iChat_Habita.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091A7FA27D531BA16B2D36BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7950A94C875253F640B8FCD6 /* Pods_iChat_Habita.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49420686ABEC7A1E6954430F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				016DBFCAE08F1065025EE7D2 /* Pods-iChat_Habita.debug.xcconfig */,
+				05FAACE142F3E1702C87598A /* Pods-iChat_Habita.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		93D06AEB284A83DB006C3CB4 = {
+			isa = PBXGroup;
+			children = (
+				93D06AF6284A83DB006C3CB4 /* iChat_Habita */,
+				93D06AF5284A83DB006C3CB4 /* Products */,
+				49420686ABEC7A1E6954430F /* Pods */,
+				091A7FA27D531BA16B2D36BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93D06AF5284A83DB006C3CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93D06AF4284A83DB006C3CB4 /* iChat_Habita.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93D06AF6284A83DB006C3CB4 /* iChat_Habita */ = {
+			isa = PBXGroup;
+			children = (
+				93593CAD284FB42800D175CE /* GoogleService-Info.plist */,
+				93D06AF7284A83DB006C3CB4 /* iChat_HabitaApp.swift */,
+				93D06AF9284A83DB006C3CB4 /* SingnInView.swift */,
+				93593CAB284F8BB700D175CE /* SingUpView.swift */,
+				93593CA9284F89DA00D175CE /* SingUpViewModel.swift */,
+				93E54CCA284AD64300B3D10E /* SingnInViewModel.swift */,
+				93D06AFB284A83DC006C3CB4 /* Assets.xcassets */,
+				93D06AFD284A83DC006C3CB4 /* Preview Content */,
+			);
+			path = iChat_Habita;
+			sourceTree = "<group>";
+		};
+		93D06AFD284A83DC006C3CB4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				93D06AFE284A83DC006C3CB4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93D06AF3284A83DB006C3CB4 /* iChat_Habita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D06B02284A83DC006C3CB4 /* Build configuration list for PBXNativeTarget "iChat_Habita" */;
+			buildPhases = (
+				4DC2B56AC4A15B8B60FBFD44 /* [CP] Check Pods Manifest.lock */,
+				93D06AF0284A83DB006C3CB4 /* Sources */,
+				93D06AF1284A83DB006C3CB4 /* Frameworks */,
+				93D06AF2284A83DB006C3CB4 /* Resources */,
+				B128E51A7D6F00BE6C096D02 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iChat_Habita;
+			productName = iChat_Habita;
+			productReference = 93D06AF4284A83DB006C3CB4 /* iChat_Habita.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93D06AEC284A83DB006C3CB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					93D06AF3284A83DB006C3CB4 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 93D06AEF284A83DB006C3CB4 /* Build configuration list for PBXProject "iChat_Habita" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93D06AEB284A83DB006C3CB4;
+			productRefGroup = 93D06AF5284A83DB006C3CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93D06AF3284A83DB006C3CB4 /* iChat_Habita */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93D06AF2284A83DB006C3CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D06AFF284A83DC006C3CB4 /* Preview Assets.xcassets in Resources */,
+				93D06AFC284A83DC006C3CB4 /* Assets.xcassets in Resources */,
+				93593CAE284FB42800D175CE /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DC2B56AC4A15B8B60FBFD44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iChat_Habita-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B128E51A7D6F00BE6C096D02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iChat_Habita/Pods-iChat_Habita-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iChat_Habita/Pods-iChat_Habita-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iChat_Habita/Pods-iChat_Habita-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93D06AF0284A83DB006C3CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93593CAC284F8BB700D175CE /* SingUpView.swift in Sources */,
+				93593CAA284F89DA00D175CE /* SingUpViewModel.swift in Sources */,
+				93D06AFA284A83DB006C3CB4 /* SingnInView.swift in Sources */,
+				93D06AF8284A83DB006C3CB4 /* iChat_HabitaApp.swift in Sources */,
+				93E54CCB284AD64300B3D10E /* SingnInViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		93D06B00284A83DC006C3CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93D06B01284A83DC006C3CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93D06B03284A83DC006C3CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 016DBFCAE08F1065025EE7D2 /* Pods-iChat_Habita.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iChat_Habita/Preview Content\"";
+				DEVELOPMENT_TEAM = 2WUBK8ZL5T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "danielly.iChat-Habita";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93D06B04284A83DC006C3CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05FAACE142F3E1702C87598A /* Pods-iChat_Habita.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iChat_Habita/Preview Content\"";
+				DEVELOPMENT_TEAM = 2WUBK8ZL5T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "danielly.iChat-Habita";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93D06AEF284A83DB006C3CB4 /* Build configuration list for PBXProject "iChat_Habita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D06B00284A83DC006C3CB4 /* Debug */,
+				93D06B01284A83DC006C3CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D06B02284A83DC006C3CB4 /* Build configuration list for PBXNativeTarget "iChat_Habita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D06B03284A83DC006C3CB4 /* Debug */,
+				93D06B04284A83DC006C3CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93D06AEC284A83DB006C3CB4 /* Project object */;
+}
