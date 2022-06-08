@@ -84,9 +84,9 @@ struct SingUpView: View {
                     .foregroundColor(Color("White 0"))
                     .cornerRadius(4)
                 
-                
-                
-                
+            }
+            .alert(isPresented: $viewModel.formInvalid) {
+                Alert(title: Text(viewModel.alertText))
             }
             
             Divider()
