@@ -28,7 +28,7 @@ class SingInViewModel: ObservableObject {
             guard let user = result?.user, err == nil else {
                 self.formInvalid = true
                 self.alertText = err!.localizedDescription
-               print(err)
+               //print(err)
                 self.isLoading = false
                 return
                 

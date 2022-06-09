@@ -10,16 +10,44 @@ import SwiftUI
 
 struct SingUpView: View {
     
-    @StateObject var viewModel =  SingUpViewModel() 
+    @StateObject var viewModel =  SingUpViewModel()
+    @State var IsShowPhotoLibrary = false
     
 
     var body: some View {
         VStack{
-            Image("logo")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 230)
-                .padding()
+            
+            Button {
+                IsShowPhotoLibrary = true
+            } label: {
+                
+                if  viewModel.image.size.width > 0 {
+                    Image(uiImage: viewModel.image)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 130, height: 130)
+                        .clipShape(Circle())
+
+                } else {
+                        Text("foto")
+                            .frame(width: 130, height: 130)
+                            .padding()
+                            .background(Color("White -1"))
+                            .foregroundColor(Color("Black -1"))
+                            .cornerRadius(100.0)
+                    }
+                }
+                
+                
+                
+            
+             .padding(.bottom, 32)
+                .sheet(isPresented: $IsShowPhotoLibrary) {
+                    ImagePicker(selectedImage: $viewModel.image)
+                    
+                }
+
+                
             
                 
 
@@ -94,19 +122,14 @@ struct SingUpView: View {
                 Alert(title: Text(viewModel.alertText))
             }
             
-         
-          
-                           
-                            
-                        
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .padding(.horizontal, 8)
+        .navigationBarTitleDisplayMode(.inline)
             
-            
-            
-            
-            
-        } .frame(maxWidth: .infinity,maxHeight: .infinity)
-            .padding(.horizontal, 8)
-            .navigationBarTitleDisplayMode(.inline)
+        }
+
+           
     }
     
     
@@ -117,6 +140,6 @@ struct SingUpView_Previews: PreviewProvider {
         SingUpView()
     }
 }
-}
+
 
     
