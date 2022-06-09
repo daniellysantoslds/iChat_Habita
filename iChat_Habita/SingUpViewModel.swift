@@ -17,8 +17,11 @@ class SingUpViewModel: ObservableObject {
    @Published var formInvalid = false
     var alertText = ""
     
+    @Published var isLoading = false
+    
     
     func singUp(){
+        isLoading = true
         print("nome: \(name), email: \(email), senha: \(password)")
         
         Auth.auth().createUser(withEmail: email, password: password) {
@@ -26,11 +29,12 @@ class SingUpViewModel: ObservableObject {
             guard let user = result?.user, err == nil else {
                 self.formInvalid = true
                 self.alertText = err!.localizedDescription
-                print(err)
+               // print(err)
+                self.isLoading = false
                 return
                 
             }
-            
+            self.isLoading = false
             print("usuario criado \(user.uid)")
         }
         

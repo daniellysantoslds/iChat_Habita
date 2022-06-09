@@ -10,7 +10,7 @@ import SwiftUI
 
 struct SingUpView: View {
     
-    @StateObject var viewModel =  SingUpViewModel()
+    @StateObject var viewModel =  SingUpViewModel() 
     
 
     var body: some View {
@@ -73,6 +73,11 @@ struct SingUpView: View {
                                             
                 )  .padding(.bottom, 32)
             
+            if viewModel.isLoading{
+                ProgressView()
+                    .padding()
+            }
+            
             
             Button{
                 viewModel.singUp()
@@ -89,24 +94,23 @@ struct SingUpView: View {
                 Alert(title: Text(viewModel.alertText))
             }
             
-            Divider()
-                .padding()
+         
+          
+                           
+                            
+                        
             
-            Button{
-                print("Clicado 2")
-            } label: {
-                Text("Não tem uma conta? Clique aqui")
-                    .foregroundColor(Color("Black -1"))
-                
-            }
+            
+            
+            
+            
         } .frame(maxWidth: .infinity,maxHeight: .infinity)
             .padding(.horizontal, 8)
             .navigationBarTitleDisplayMode(.inline)
-            
     }
     
     
-
+    
 
 struct SingUpView_Previews: PreviewProvider {
     static var previews: some View {
@@ -114,3 +118,5 @@ struct SingUpView_Previews: PreviewProvider {
     }
 }
 }
+
+    

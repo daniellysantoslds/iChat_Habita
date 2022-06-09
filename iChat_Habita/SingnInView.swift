@@ -57,6 +57,13 @@ struct SingnInView: View {
                 )  .padding(.bottom, 32)
             
             
+            
+            if viewModel.isLoading{
+                ProgressView()
+                    .padding()
+            }
+            
+            
             Button{
                 viewModel.singIn()
             } label: {
@@ -67,7 +74,9 @@ struct SingnInView: View {
                     .foregroundColor(Color("White 0"))
                     .cornerRadius(4)
     
-                
+                    .alert(isPresented: $viewModel.formInvalid) {
+                        Alert(title: Text(viewModel.alertText))
+                    }
             }
             
             Divider()
