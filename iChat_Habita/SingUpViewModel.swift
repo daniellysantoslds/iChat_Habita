@@ -8,12 +8,13 @@
 import SwiftUI
 import FirebaseAuth
 import FirebaseStorage
+import FirebaseFirestore
 
 class SingUpViewModel: ObservableObject {
     
-    var name = ""
-    var email = ""
-    var password = ""
+    @Published var name = ""
+    @Published var email = ""
+    @Published var password = ""
     
     @Published var image = UIImage()
     
@@ -74,8 +75,29 @@ class SingUpViewModel: ObservableObject {
        ref.putData(data, metadata: newMetadata) { metadata, err in
         ref.downloadURL { url, error in
         self.isLoading = false
+        guard let url = url else { return }
         print("Foto criada \(url)")
+            self.createUser(photoUrl: url)
+    }
+   }
+  }
+    
+    private func createUser(photoUrl: URL) {
+        Firestore.firestore().collection("users")
+            .document()
+            .setData([
+                "name": name,
+                "uuid": Auth.auth().currentUser!.uid,
+                "profileUrl": photoUrl.absoluteString
+            ])  { err in
+        self.isLoading = false
+        if err != nil {
+            print(err!.localizedDescription)
+            return
+        }
         }
     }
-    }
+    
+    
 }
+

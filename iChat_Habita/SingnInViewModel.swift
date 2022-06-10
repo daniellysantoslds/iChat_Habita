@@ -10,8 +10,8 @@ import FirebaseAuth
 
 class SingInViewModel: ObservableObject {
     
-    var email = ""
-    var password = ""
+    @Published var email = ""
+    @Published var password = ""
     
     @Published var formInvalid = false
      var alertText = ""
