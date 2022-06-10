@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9354A0242853B66A00A7B724 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9354A0232853B66A00A7B724 /* ContentView.swift */; };
+		9354A0282853B6FC00A7B724 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9354A0272853B6FC00A7B724 /* ContentViewModel.swift */; };
 		93593CAA284F89DA00D175CE /* SingUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93593CA9284F89DA00D175CE /* SingUpViewModel.swift */; };
 		93593CAC284F8BB700D175CE /* SingUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93593CAB284F8BB700D175CE /* SingUpView.swift */; };
 		9370060C2852694300AFF627 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9370060B2852694300AFF627 /* ImagePicker.swift */; };
@@ -23,6 +25,8 @@
 		016DBFCAE08F1065025EE7D2 /* Pods-iChat_Habita.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat_Habita.debug.xcconfig"; path = "Target Support Files/Pods-iChat_Habita/Pods-iChat_Habita.debug.xcconfig"; sourceTree = "<group>"; };
 		05FAACE142F3E1702C87598A /* Pods-iChat_Habita.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat_Habita.release.xcconfig"; path = "Target Support Files/Pods-iChat_Habita/Pods-iChat_Habita.release.xcconfig"; sourceTree = "<group>"; };
 		7950A94C875253F640B8FCD6 /* Pods_iChat_Habita.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iChat_Habita.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9354A0232853B66A00A7B724 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9354A0272853B6FC00A7B724 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		93593CA9284F89DA00D175CE /* SingUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewModel.swift; sourceTree = "<group>"; };
 		93593CAB284F8BB700D175CE /* SingUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpView.swift; sourceTree = "<group>"; };
 		9370060B2852694300AFF627 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -89,7 +93,6 @@
 				93D06AF7284A83DB006C3CB4 /* iChat_HabitaApp.swift */,
 				93D06AF9284A83DB006C3CB4 /* SingnInView.swift */,
 				93593CAB284F8BB700D175CE /* SingUpView.swift */,
-				9370060B2852694300AFF627 /* ImagePicker.swift */,
 				93593CA9284F89DA00D175CE /* SingUpViewModel.swift */,
 				93E54CCA284AD64300B3D10E /* SingnInViewModel.swift */,
 				93D06AFB284A83DC006C3CB4 /* Assets.xcassets */,
@@ -101,7 +104,10 @@
 		93D06AFD284A83DC006C3CB4 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				9354A0232853B66A00A7B724 /* ContentView.swift */,
+				9370060B2852694300AFF627 /* ImagePicker.swift */,
 				93D06AFE284A83DC006C3CB4 /* Preview Assets.xcassets */,
+				9354A0272853B6FC00A7B724 /* ContentViewModel.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -221,8 +227,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9354A0282853B6FC00A7B724 /* ContentViewModel.swift in Sources */,
 				93593CAC284F8BB700D175CE /* SingUpView.swift in Sources */,
 				93593CAA284F89DA00D175CE /* SingUpViewModel.swift in Sources */,
+				9354A0242853B66A00A7B724 /* ContentView.swift in Sources */,
 				93D06AFA284A83DB006C3CB4 /* SingnInView.swift in Sources */,
 				9370060C2852694300AFF627 /* ImagePicker.swift in Sources */,
 				93D06AF8284A83DB006C3CB4 /* iChat_HabitaApp.swift in Sources */,

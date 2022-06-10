@@ -17,7 +17,7 @@ struct iChat_HabitaApp: App {
     }
     var body: some Scene {
         WindowGroup {
-            SingnInView()
+            ContentView()
         }
     }
 }
