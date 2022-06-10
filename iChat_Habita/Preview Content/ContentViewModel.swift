@@ -13,5 +13,6 @@ import FirebaseAuth
 
 class  ContentViewModel: ObservableObject {
     
+    @Published var isLogged = Auth.auth().currentUser != nil
     
 }

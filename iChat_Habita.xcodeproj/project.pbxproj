@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9354A0242853B66A00A7B724 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9354A0232853B66A00A7B724 /* ContentView.swift */; };
 		9354A0282853B6FC00A7B724 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9354A0272853B6FC00A7B724 /* ContentViewModel.swift */; };
+		9354A02A2853BEDD00A7B724 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9354A0292853BEDD00A7B724 /* MessagesView.swift */; };
+		9354A02C2853BF6B00A7B724 /* MessagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9354A02B2853BF6B00A7B724 /* MessagesViewModel.swift */; };
 		93593CAA284F89DA00D175CE /* SingUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93593CA9284F89DA00D175CE /* SingUpViewModel.swift */; };
 		93593CAC284F8BB700D175CE /* SingUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93593CAB284F8BB700D175CE /* SingUpView.swift */; };
 		9370060C2852694300AFF627 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9370060B2852694300AFF627 /* ImagePicker.swift */; };
@@ -27,6 +29,8 @@
 		7950A94C875253F640B8FCD6 /* Pods_iChat_Habita.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iChat_Habita.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9354A0232853B66A00A7B724 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9354A0272853B6FC00A7B724 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		9354A0292853BEDD00A7B724 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		9354A02B2853BF6B00A7B724 /* MessagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewModel.swift; sourceTree = "<group>"; };
 		93593CA9284F89DA00D175CE /* SingUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewModel.swift; sourceTree = "<group>"; };
 		93593CAB284F8BB700D175CE /* SingUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpView.swift; sourceTree = "<group>"; };
 		9370060B2852694300AFF627 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -106,8 +110,10 @@
 			children = (
 				9354A0232853B66A00A7B724 /* ContentView.swift */,
 				9370060B2852694300AFF627 /* ImagePicker.swift */,
-				93D06AFE284A83DC006C3CB4 /* Preview Assets.xcassets */,
 				9354A0272853B6FC00A7B724 /* ContentViewModel.swift */,
+				9354A0292853BEDD00A7B724 /* MessagesView.swift */,
+				9354A02B2853BF6B00A7B724 /* MessagesViewModel.swift */,
+				93D06AFE284A83DC006C3CB4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -229,6 +235,8 @@
 			files = (
 				9354A0282853B6FC00A7B724 /* ContentViewModel.swift in Sources */,
 				93593CAC284F8BB700D175CE /* SingUpView.swift in Sources */,
+				9354A02C2853BF6B00A7B724 /* MessagesViewModel.swift in Sources */,
+				9354A02A2853BEDD00A7B724 /* MessagesView.swift in Sources */,
 				93593CAA284F89DA00D175CE /* SingUpViewModel.swift in Sources */,
 				9354A0242853B66A00A7B724 /* ContentView.swift in Sources */,
 				93D06AFA284A83DB006C3CB4 /* SingnInView.swift in Sources */,

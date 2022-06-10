@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Firebase
+//import FirebaseAuth
 
 @main
 struct iChat_HabitaApp: App {
@@ -14,10 +15,11 @@ struct iChat_HabitaApp: App {
     
     init(){
         FirebaseApp.configure()
+      // try! Auth.auth().signOut()
     }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           ContentView()
         }
     }
 }
