@@ -7,6 +7,7 @@
 
 import SwiftUI
 import FirebaseAuth
+import FirebaseStorage
 
 class SingUpViewModel: ObservableObject {
     
@@ -23,8 +24,17 @@ class SingUpViewModel: ObservableObject {
     
     
     func singUp(){
-        isLoading = true
+        //isLoading = true
         print("nome: \(name), email: \(email), senha: \(password)")
+        
+        if (image.size.width <= 0){
+            formInvalid = true
+            alertText = "Selecione uma foto"
+            return
+        }
+        
+        
+        
         
         Auth.auth().createUser(withEmail: email, password: password) {
             result, err in
@@ -38,10 +48,34 @@ class SingUpViewModel: ObservableObject {
             }
             self.isLoading = false
             print("usuario criado \(user.uid)")
+            
+            self.uploadPhoto()
+
+            
         }
-        
-        
-        
     }
-    
+     
+    private func uploadPhoto() {
+        let filename = UUID().uuidString
+
+        
+        guard let data = image.jpegData(compressionQuality: 0.2) else { return }
+        
+        let newMetadata = StorageMetadata()
+        newMetadata.contentType = "image/jpeg"
+        
+        let ref = Storage.storage().reference(withPath: "/images/\(filename).jpg")
+        
+        
+
+        
+        
+
+       ref.putData(data, metadata: newMetadata) { metadata, err in
+        ref.downloadURL { url, error in
+        self.isLoading = false
+        print("Foto criada \(url)")
+        }
+    }
+    }
 }
